@@ -17,6 +17,20 @@ $(function () {
   }
 });
 
+$('#informacio .more-details a').click(function(evt) {
+  $('#informacio tbody').show(200);
+  $('#informacio .more-details').hide();
+  $('#informacio .less-details').show();
+  evt.preventDefault();
+});
+
+$('#informacio .less-details a').click(function(evt) {
+  $('#informacio tbody').hide();
+  $('#informacio .less-details').hide();
+  $('#informacio .more-details').show();
+  evt.preventDefault();
+});
+
 $(document).ready(function() {
   function filterPath(string) {
   return string

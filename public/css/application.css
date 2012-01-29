@@ -52,6 +52,18 @@ body {
   padding-top: 15px;
 }
 
+#informacio tbody {
+  display: none;
+}
+
+#informacio .more-details, #informacio .less-details {
+  padding: 0 10px;
+}
+
+#informacio .less-details {
+  display: none;
+}
+
 .jumpable {
   margin-top: -60px;
   padding-top: 60px;
