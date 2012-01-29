@@ -34,3 +34,20 @@ body {
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
+
+.m2 {
+  text-align: right;
+}
+
+.recap {
+  background-color: #eee;
+}
+
+.recap td {
+  border-top: 1px solid #bbb;
+}
+
+#informacio thead th
+{
+  padding-top: 15px;
+}
