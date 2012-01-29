@@ -3,7 +3,7 @@ $(function () {
     , images_el = $('#fotos');
   for(var i = 0; i <= images_num; i++) {
     var row = '';
-    row += "<div class='row foto' id='foto-" + i + "'>";
+    row += "<div class='row foto jumpable' id='foto-" + i + "'>";
     row += "<div class='map span4'>";
     row += "<img src='images/maps/" + i + ".png' alt='Mapa Casa Empordà'>";
     row += "</div>";

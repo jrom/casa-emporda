@@ -7,7 +7,7 @@ body {
 }
 
 #fotos .row {
-  margin-top: 20px;
+  margin-top: -40px; /* was 20 but jumpable things are -60 */
 }
 
 #fotos .foto img {
