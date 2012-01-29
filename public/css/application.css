@@ -3,7 +3,7 @@ body {
 }
 
 #fotografies {
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 #fotos .row {
@@ -50,4 +50,9 @@ body {
 #informacio thead th
 {
   padding-top: 15px;
+}
+
+.jumpable {
+  margin-top: -60px;
+  padding-top: 60px;
 }
