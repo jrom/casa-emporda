@@ -3,7 +3,7 @@ body {
 }
 
 #fotografies {
-  margin-top: 0;
+  margin-top: 0; /* jumpable */
 }
 
 #fotos .row {
@@ -94,3 +94,8 @@ body {
   font-size: 40px;
   line-height: 40px;
 }
+
+#descripcio {
+  margin-top: 0; /* jumpable */
+}
+
