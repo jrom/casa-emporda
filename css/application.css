@@ -1,0 +1,36 @@
+body {
+  padding-top: 30px;
+}
+
+#fotografies {
+  margin-top: 30px;
+}
+
+#fotos .row {
+  margin-top: 20px;
+}
+
+#fotos .foto img {
+  max-width: 700px;
+  max-height: 700px;
+}
+.foto a {
+  float: left;
+  padding: 4px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.foto a img {
+  display: block;
+}
+.foto a:hover {
+  border-color: #0069d6;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}

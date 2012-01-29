@@ -13,11 +13,7 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 30px;
-      }
-    </style>
+    <link href="css/application.css" rel="stylesheet">
   </head>
 
   <body>
@@ -46,13 +42,17 @@
 
       <div class="row">
         <div class="span11">
-          <h2>Ubicació</h2>
+          <div class="page-header">
+            <h2>Ubicació</h2>
+          </div>
           <p>La casa que es posa a la venda és l’anomenada casa A, situada al carrer Fortià número 17 de Vila-sacra. Vila-sacra és un municipi agrícola de l’Alt Empordà, proper a Figueres i situat a la vora de la carretera a Roses i Cadaqués.</p>
           <iframe width="640" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.es/?ie=UTF8&amp;t=m&amp;ll=42.260033,3.03566&amp;spn=0.088933,0.219727&amp;z=12&amp;output=embed"></iframe>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span5">
-          <h2>Informació Bàsica</h2>
+          <div class="page-header">
+            <h2>Informació Bàsica</h2>
+          </div>
           <table>
             <thead>
               <tr>
@@ -88,6 +88,14 @@
           </table>
         </div>
       </div> <!-- /row -->
+
+      <div class="page-header" id="fotografies">
+        <h1>
+          Fotografies
+          <small>El punt blau en el plànol representa des d'on s'ha fet la fotografia</small>
+        </h1>
+      </div>
+
       <div id="fotos"></div>
 
       <footer>
