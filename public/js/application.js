@@ -9,7 +9,7 @@ $(function () {
     row += "</div>";
     row += "<div class='foto span12'>";
     row += "<a href='#'>";
-    row += "<img class='thumbnail' src='images/fotos/" + i + ".jpg' alt='Casa Empordà'>";
+    row += "<img class='thumbnail' src='images/fotos/" + i + "_big.jpg' alt='Casa Empordà'>";
     row += "</a>";
     row += "</div>";
     row += "</div>";
